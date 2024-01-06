@@ -1,0 +1,27 @@
+version: '3'
+services:
+ database:
+   container_name: database
+   build: ./database
+   image: database
+   env_file: ./database/mysql.env
+   ports:
+     - "3306:3306"
+   volumes:
+     - ./database/data:/var/lib/mysql
+   networks:
+     - default
+ application:
+   container_name: app
+   tty: true
+   build:
+    context: ./app
+    dockerfile: Dockerfile
+   image: app
+   volumes:
+     - ./app/src:/application/src
+   ports:
+     - "3000:3000"
+     - "24678:24678"
+   networks:
+     - default
