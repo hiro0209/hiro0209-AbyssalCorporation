@@ -11,7 +11,7 @@ services:
      - ./database/data:/var/lib/mysql
    networks:
      - default
- application:
+ app:
    container_name: app
    tty: true
    build:
