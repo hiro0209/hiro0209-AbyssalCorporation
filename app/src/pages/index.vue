@@ -8,4 +8,6 @@
 </style>
 
 <script setup>
+// ページメタ情報
+definePageMeta({ layout: "top-page" });
 </script>
