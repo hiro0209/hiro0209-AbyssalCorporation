@@ -1,5 +1,5 @@
 <template>
-  <header :class="props.topPage ? 'top-page' : ''">
+  <header :class="props.homePage ? 'home-page' : ''">
     <div id="header-logo">
       <NuxtLink to="/"><NuxtImg src="images/logo.png"></NuxtImg></NuxtLink>
     </div>
@@ -33,7 +33,7 @@ header {
 <script setup>
 // Props
 const props = defineProps({
-  "top-page": {
+  "home-page": {
     type: Boolean,
     default: false
   }
