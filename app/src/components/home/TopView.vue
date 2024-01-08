@@ -17,8 +17,7 @@
   padding-top: 120px;
   #home-top-view-wrapper {
     display: flex;
-    width: 100%;
-    max-width: 1400px;
+    width: min(1400px, 100%);
     height: 100%;
     margin: 0 auto;
     align-items: center;
