@@ -1,10 +1,17 @@
 <template>
-  <div>
-    
-  </div>
+  <main>
+    <HomeTopView />
+  </main>
 </template>
 
-<style type="scss">
+<style type="scss" scoped>
+main {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("/images/top.png");
+  background-position: center;
+  background-size: cover;
+}
 </style>
 
 <script setup>
