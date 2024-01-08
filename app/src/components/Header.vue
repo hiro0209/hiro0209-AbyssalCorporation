@@ -6,7 +6,7 @@
   </header>
 </template>
 
-<style type="scss">
+<style type="scss" scoped>
 header {
   width: calc(100% - 8px);
   height: 104px;
