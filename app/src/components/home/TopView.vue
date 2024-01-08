@@ -1,5 +1,5 @@
 <template>
-  <div id="home-top-view">
+  <div class="background-override" id="home-top-view">
     <div id="home-top-view-wrapper">
       <div id="home-top-view-title">
         <h2 id="com-catch-copy">夢を現実にする会社</h2>
@@ -14,7 +14,6 @@
 #home-top-view {
   width: 100%;
   height: calc(100vh - 120px);
-  background-color: rgba(0, 0, 0, 0.7);
   padding-top: 120px;
   #home-top-view-wrapper {
     display: flex;
