@@ -22,6 +22,8 @@ header {
   z-index: 2;
   @include mq(sp) {
     height: calc($header-height-sp - 16px);
+    background-color: $base-color;
+    box-shadow: 0 1px 8px 1px $accent-color;
   }
   #header-logo {
     width: fit-content;
