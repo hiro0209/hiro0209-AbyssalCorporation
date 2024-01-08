@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <Header :top-page="true" />
+    <Header :top-page="false" />
     <slot />
     <Footer />
   </div>
