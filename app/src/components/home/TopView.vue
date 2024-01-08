@@ -10,7 +10,7 @@
   </div>
 </template>
 
-<style type="scss" scoped>
+<style lang="scss" scoped>
 #home-top-view {
   width: 100%;
   height: calc(100vh - 120px);
@@ -41,13 +41,13 @@
         color: white;
         span {
           font-size: 6.222rem;
-          color: #5296ff;
+          color: $main-color;
         }
       }
       #com-name-en {
         /* font-size: 38px */
         font-size: 2.111rem;
-        color: #5296ff;
+        color: $main-color;
         padding-left: 8px;
       }
     }
