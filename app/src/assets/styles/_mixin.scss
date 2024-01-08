@@ -1,10 +1,18 @@
+// ブレイクポイント
 $breakpoint: (
   sp: "screen and (max-width: 768px)",
   tab: "screen and (max-width: 1280px)"
 );
 
+// メディアクエリ
 @mixin mq($bp) {
   @media #{map-get($breakpoint, $bp)} {
     @content;
   }
+}
+
+// 画面幅を基準にpxをvwに変換する関数
+@function convert_px_to_vw($font_size, $viewport: 1920) {
+  $rate: calc(100 / $viewport);
+  @return $rate * $font_size * 1vw;
 }
