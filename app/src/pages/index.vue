@@ -9,5 +9,5 @@
 
 <script setup>
 // ページメタ情報
-definePageMeta({ layout: "top-page" });
+definePageMeta({ layout: "home-page" });
 </script>
