@@ -4,5 +4,5 @@
   </footer>
 </template>
 
-<style type="scss">
+<style type="scss" scoped>
 </style>
