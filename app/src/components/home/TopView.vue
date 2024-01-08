@@ -14,7 +14,7 @@
 #home-top-view {
   width: 100%;
   height: calc(100vh - 120px);
-  padding-top: 120px;
+  padding-top: $header-height;
   @include mq(sp) {
     #home-top-view-wrapper {
       width: calc(100% - 16px);

@@ -9,12 +9,15 @@
 <style lang="scss" scoped>
 header {
   width: calc(100% - 8px);
-  height: 104px;
+  height: calc($header-height - 16px);
   padding: 8px 0 8px 8px;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 2;
+  @include mq(sp) {
+    height: calc($header-height-sp - 16px);
+  }
   #header-logo {
     width: fit-content;
     height: 100%;
