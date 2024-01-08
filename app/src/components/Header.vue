@@ -1,7 +1,12 @@
 <template>
   <header :class="props.homePage ? 'home-page' : ''">
     <div id="header-logo">
-      <NuxtLink to="/"><NuxtImg src="images/logo.png"></NuxtImg></NuxtLink>
+      <NuxtLink to="/">
+        <picture>
+          <source srcset="@/public/images/icon.png" media="(max-width: 768px)" type="image/png">
+          <NuxtImg src="images/logo.png" alt=""></NuxtImg>
+        </picture>
+      </NuxtLink>
     </div>
   </header>
 </template>
