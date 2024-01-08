@@ -16,10 +16,7 @@
   height: calc(100vh - 120px);
   padding-top: $header-height;
   @include mq(sp) {
-    #home-top-view-wrapper {
-      width: calc(100% - 16px);
-      padding: 0 8px;
-    }
+    padding-top: $header-height-sp;
   }
   #home-top-view-wrapper {
     display: flex;
