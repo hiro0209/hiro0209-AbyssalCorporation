@@ -26,6 +26,7 @@
       width: 100%;
       margin-bottom: 200px;
       #com-catch-copy {
+        /* font-size: 38px */
         font-size: 2.111rem;
         font-weight: 400;
         color: white;
@@ -34,6 +35,7 @@
         padding-left: 8px;
       }
       #com-name {
+        /* font-size: 100px */
         font-size: 5.556rem;
         font-weight: 400;
         line-height: 1.1;
@@ -44,6 +46,7 @@
         }
       }
       #com-name-en {
+        /* font-size: 38px */
         font-size: 2.111rem;
         color: #5296ff;
         padding-left: 8px;
