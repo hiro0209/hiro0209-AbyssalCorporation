@@ -1,10 +1,33 @@
 <template>
-  <header :class="props.topPage ? 'top_page' : ''">
-    
+  <header :class="props.topPage ? 'top-page' : ''">
+    <div id="header-logo">
+      <NuxtLink to="/"><NuxtImg src="images/logo.png"></NuxtImg></NuxtLink>
+    </div>
   </header>
 </template>
 
 <style type="scss">
+header {
+  width: calc(100% - 8px);
+  height: 104px;
+  padding: 8px 0 0 8px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  #header-logo {
+    width: fit-content;
+    height: 100%;
+    a {
+      display: block;
+      width: 100%;
+      height: 100%;
+      img {
+        height: 100%;
+      }
+    }
+  }
+}
 </style>
 
 <script setup>
