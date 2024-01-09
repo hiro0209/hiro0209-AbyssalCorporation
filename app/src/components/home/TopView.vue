@@ -1,5 +1,5 @@
 <template>
-  <div class="background-override" id="home-top-view">
+  <section class="background-override" id="home-top-view">
     <div id="home-top-view-wrapper">
       <div id="home-top-view-title">
         <h2 id="com-catch-copy">夢を現実にする会社</h2>
@@ -7,7 +7,7 @@
         <p id="com-name-en">Abyssal Corporation</p>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style lang="scss" scoped>

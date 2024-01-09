@@ -1,5 +1,5 @@
 <template>
-  <div class="background-override" id="top-menu">
+  <section class="background-override" id="top-menu">
     <div class="wrapper">
       <h3 id="top-menu-title">
         <span>会</span>社について知る
@@ -25,7 +25,7 @@
         </li>
       </ul>
     </div>
-  </div>
+  </section>
 </template>
 
 <style lang="scss" scoped>
