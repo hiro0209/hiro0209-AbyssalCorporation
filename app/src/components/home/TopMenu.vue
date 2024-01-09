@@ -4,26 +4,28 @@
       <h3 id="top-menu-title">
         <span>会</span>社について知る
       </h3>
-      <ul id="top-menu-main">
-        <li>
-          <NuxtLink class="top-menu-link" top="/">
-            <h4 class="top-menu-caption">企業理念</h4>
-            <NuxtImg class="top-menu-image" src="images/philosophy.png" alt="" />
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink class="top-menu-link" top="/">
-            <h4 class="top-menu-caption">事業紹介</h4>
-            <NuxtImg class="top-menu-image" src="images/business.png" alt="" />
-          </NuxtLink>
-        </li>
-        <li>
-          <NuxtLink class="top-menu-link" top="/">
-            <h4 class="top-menu-caption">会社概要</h4>
-            <NuxtImg class="top-menu-image" src="images/overview.png" alt="" />
-          </NuxtLink>
-        </li>
-      </ul>
+      <nav>
+        <ul id="top-menu-main">
+          <li>
+            <NuxtLink class="top-menu-link" top="/">
+              <h4 class="top-menu-caption">企業理念</h4>
+              <NuxtImg class="top-menu-image" src="images/philosophy.png" alt="" />
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink class="top-menu-link" top="/">
+              <h4 class="top-menu-caption">事業紹介</h4>
+              <NuxtImg class="top-menu-image" src="images/business.png" alt="" />
+            </NuxtLink>
+          </li>
+          <li>
+            <NuxtLink class="top-menu-link" top="/">
+              <h4 class="top-menu-caption">会社概要</h4>
+              <NuxtImg class="top-menu-image" src="images/overview.png" alt="" />
+            </NuxtLink>
+          </li>
+        </ul>
+      </nav>
     </div>
   </section>
 </template>
