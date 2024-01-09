@@ -1,11 +1,11 @@
 <template>
   <section class="background-override" id="home-top-view">
     <div id="home-top-view-wrapper">
-      <div id="home-top-view-title">
-        <h2 id="com-catch-copy">夢を現実にする会社</h2>
-        <h1 id="com-name"><span>ア</span>ビサル<span></span>コーポレーション</h1>
+      <h1 id="home-top-view-title">
+        <p id="com-catch-copy">夢を現実にする会社</p>
+        <p id="com-name"><span>ア</span>ビサル<span></span>コーポレーション</p>
         <p id="com-name-en">Abyssal Corporation</p>
-      </div>
+      </h1>
     </div>
   </section>
 </template>
