@@ -16,6 +16,7 @@
   height: calc(100vh - 120px);
   padding-top: $header-height;
   @include mq(sp) {
+    height: calc(50vh - $header-height-sp);
     padding-top: $header-height-sp;
   }
   #home-top-view-wrapper {
@@ -31,6 +32,9 @@
     #home-top-view-title {
       width: 100%;
       margin-bottom: 200px;
+      @include mq(sp) {
+        margin-bottom: -32px;
+      }
       #com-catch-copy {
         // font-size: 20px <= 38px(pc) <= 42px
         font-size: clamp(1.25rem, convert_px_to_vw(38), 2.625rem);
