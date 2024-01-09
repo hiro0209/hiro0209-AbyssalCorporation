@@ -49,3 +49,41 @@ ul, ol {
 .background-override {
   background-color: rgba(0, 0, 0, 0.7);
 }
+
+.section-title {
+  display: block;
+  width: calc(100% - 50px);
+  /* font-size: 24px <= 45px(pc) <= 56px  */
+  font-size: clamp(1.5rem, convert_px_to_vw(45), 3.5rem);
+  font-weight: 400;
+  line-height: 1;
+  color: black;
+  margin-left: 50px;
+  position: relative;
+  @include mq(sp) {
+    color: black;
+    margin-left: 28px;
+  }
+  span {
+    /* font-size: 28px <= 56px(px) <= 70px */
+    font-size: clamp(1.75rem, convert_px_to_vw(56), 4.375rem);
+    color: $main-color;
+  }
+  &::before {
+    display: block;
+    content: "";
+    width: 26px;
+    height: 26px;
+    border: 2px solid $main-color;
+    margin-right: 20px;
+    position: absolute;
+    left: -50px;
+    bottom: 10px;
+    @include mq(sp) {
+      width: 16px;
+      height: 16px;
+      left: -28px;
+      bottom: 3px;
+    }
+  }
+}

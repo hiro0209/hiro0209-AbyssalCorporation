@@ -1,7 +1,7 @@
 <template>
   <section class="background-override" id="top-menu">
     <div class="wrapper">
-      <h2 id="top-menu-title">
+      <h2 class="section-title" id="top-menu-title">
         <span>会</span>社について知る
       </h2>
       <nav>
@@ -47,41 +47,7 @@
   }
   // タイトル(会社について知る)
   #top-menu-title {
-    display: block;
-    width: calc(100% - 50px);
-    /* font-size: 24px <= 45px(pc) <= 56px  */
-    font-size: clamp(1.5rem, convert_px_to_vw(45), 3.5rem);
-    font-weight: 400;
-    line-height: 1;
     color: white;
-    margin-left: 50px;
-    position: relative;
-    @include mq(sp) {
-      color: black;
-      margin-left: 28px;
-    }
-    span {
-      /* font-size: 28px <= 56px(px) <= 70px */
-      font-size: clamp(1.75rem, convert_px_to_vw(56), 4.375rem);
-      color: $main-color;
-    }
-    &::before {
-      display: block;
-      content: "";
-      width: 20px;
-      height: 26px;
-      border: 2px solid $main-color;
-      margin-right: 20px;
-      position: absolute;
-      left: -50px;
-      bottom: 10px;
-      @include mq(sp) {
-        width: 16px;
-        height: 16px;
-        left: -28px;
-        bottom: 3px;
-      }
-    }
   }
   // メニュー本体
   #top-menu-main {
