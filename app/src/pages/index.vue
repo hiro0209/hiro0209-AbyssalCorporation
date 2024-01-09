@@ -1,6 +1,7 @@
 <template>
   <main>
     <HomeTopView />
+    <HomeTopMenu />
   </main>
 </template>
 
