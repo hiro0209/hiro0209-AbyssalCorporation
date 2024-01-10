@@ -2,6 +2,7 @@
   <main>
     <HomeTopView />
     <HomeTopMenu />
+    <HomeNews />
   </main>
 </template>
 
