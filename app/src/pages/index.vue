@@ -21,6 +21,8 @@ main {
     top: 0;
     left: 0;
     img {
+      min-width: 100%;
+      min-height: 100%;
       position: absolute;
       top: 50%;
       left: 50%;
