@@ -3,6 +3,10 @@
     <HomeTopView />
     <HomeTopMenu />
     <HomeNews />
+
+    <div id="background">
+      <NuxtImg src="images/top.png" />
+    </div>
   </main>
 </template>
 
@@ -10,9 +14,19 @@
 main {
   width: 100%;
   min-height: 100vh;
-  background-image: url("/images/top.png");
-  background-position: center;
-  background-size: cover;
+  #background {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
 }
 </style>
 

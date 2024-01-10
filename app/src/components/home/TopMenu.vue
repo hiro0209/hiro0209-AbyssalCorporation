@@ -36,6 +36,8 @@
   width: 100%;
   padding: 64px 0 160px 0;
   flex-direction: column;
+  position: relative;
+  z-index: 1;
   @include mq(sp) {
     align-items: center;
     .wrapper {

@@ -15,6 +15,8 @@
   width: 100%;
   height: calc(100vh - 120px);
   padding-top: $header-height;
+  position: relative;
+  z-index: 1;
   @include mq(sp) {
     height: calc(50vh - $header-height-sp);
     padding-top: $header-height-sp;

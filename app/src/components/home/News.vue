@@ -28,6 +28,8 @@
   width: 100%;
   background-color: $base-color;
   padding: 64px 0;
+  position: relative;
+  z-index: 1;
   // タイトル含めた上部
   #news-header {
     display: flex;
