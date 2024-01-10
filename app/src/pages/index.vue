@@ -3,6 +3,7 @@
     <HomeTopView />
     <HomeTopMenu />
     <HomeNews />
+    <HomeCareers />
 
     <div id="background">
       <NuxtImg src="images/top.png" />
@@ -14,6 +15,7 @@
 main {
   width: 100%;
   min-height: 100vh;
+  // 背景画像
   #background {
     width: 100%;
     height: 100%;
