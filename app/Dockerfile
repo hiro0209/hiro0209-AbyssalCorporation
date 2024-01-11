@@ -14,4 +14,4 @@ ENV SERVER_ENV=docker
 ENV TZ=utc
 ENV NODE_OPTIONS=--openssl-legacy-provider
 ENV CHOKIDAR_USEPOLLING=1
-CMD ["./startup.dev.sh"]
+#CMD ["./startup.dev.sh"]

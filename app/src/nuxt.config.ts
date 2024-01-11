@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
+
   app: {
     head: {
       title: "株式会社アビサルコーポレーション",
@@ -11,9 +12,11 @@ export default defineNuxtConfig({
       ],
     }
   },
+
   css: [
     "@/assets/styles/main.scss"
   ],
+
   vite: {
     server: {
       watch: {
@@ -26,8 +29,9 @@ export default defineNuxtConfig({
           additionalData:
             '@import "@/assets/styles/config/_variables.scss"; \
             @import "@/assets/styles/_mixin.scss";'
-        },
-      },
-    },
-  }
+        }
+      }
+    }
+  },
+  modules: ["@nuxt/image"]
 })
