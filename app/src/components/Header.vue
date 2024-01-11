@@ -1,5 +1,5 @@
 <template>
-  <header :class="props.homePage ? 'home-page' : ''">
+  <header :class="(props.homePage ? 'home-page' : '') + ' background-override'">
     <div id="header-logo">
       <NuxtLink to="/">
         <picture>
@@ -34,10 +34,8 @@ header {
   width: calc(100% - 8px);
   height: calc($header-height - 16px);
   padding: 8px 0 8px 8px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2;
+  position: relative;
+  z-index: 1;
   justify-content: space-between;
   @include mq(sp) {
     height: calc($header-height-sp - 16px);
