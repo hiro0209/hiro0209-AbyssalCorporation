@@ -12,7 +12,7 @@
   width: 100%;
   height: 600px;
   text-decoration: none;
-  background-image: url("images/recruit.png");
+  background-image: url("@/public/images/recruit.png");
   background-size: cover;
   background-position: center;
   position: relative;
